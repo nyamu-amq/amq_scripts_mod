@@ -13072,7 +13072,7 @@ function addComparisionPage(){
 	ratingFilterLabel.style.padding = "5px";
 	let ratingFilter = create("input",false,false,compareArea,"width:45px;color:rgb(var(--color-text))");
 	ratingFilter.type = "number";
-	ratingFilter.value = 1;
+	ratingFilter.value = 0;
 	ratingFilter.min = 0;
 	let systemFilterLabel = create("span",false,"Individual rating systems:",compareArea,"padding:5px;");
 	let systemFilter = createCheckbox(compareArea);
