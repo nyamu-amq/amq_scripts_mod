@@ -13581,7 +13581,7 @@ function addComparisionPage(){
 					statusFilterDot.style.background = "rgb(var(--color-background))";
 					statusFilterDot.title = "all";
 				}
-				else if(user.status === "REPEATING"){
+				else if(user.status === "DROPPED"){
 					user.status = "NOT";
 					statusFilterDot.style.background = `center / contain no-repeat url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="96" height="96" viewBox="0 0 10 10"><line stroke="red" x1="0" y1="0" x2="10" y2="10"/><line x1="0" y1="10" x2="10" y2="0" stroke="red"/></svg>')`;
 					statusFilterDot.title = "no status";
